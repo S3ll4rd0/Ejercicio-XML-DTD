@@ -1,0 +1,10 @@
+<!-- Me he permitido pasar todas las etiquetas a mayúscula la 1a letra, 
+    por lo demás lo he mantenido como estaban -->
+
+<!ELEMENT Stock	(New-Car | Used-Car)*>	
+    <!ELEMENT New-Car (Model, Price)>	
+    <!ELEMENT Used-Car (Model, Price, Mileage, Condition?)>	
+    <!ELEMENT Model (#PCDATA)>	
+    <!ELEMENT Price (#PCDATA)>	
+    <!ELEMENT Mileage (#PCDATA)>	
+    <!ELEMENT Condition	(#PCDATA)>

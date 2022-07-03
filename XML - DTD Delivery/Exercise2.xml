@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Stock SYSTEM "Exercise2.dtd">
+
+<!-- Me he permitido pasar todas las etiquetas a mayúscula la 1a letra, 
+    por lo demás lo he mantenido como estaban -->
+<Stock>
+
+    <New-Car>
+
+        <Model>Ford Fiesta</Model>
+        <Price>17.000€</Price>
+
+    </New-Car>
+
+    <New-Car>
+
+        <Model>Audi A4</Model>
+        <Price>28.899 €</Price>
+
+    </New-Car>
+
+    <Used-Car>
+
+        <Model>Renault Kangoo</Model>
+        <Price>4.200 €</Price>
+        <Mileage>289.933 Km</Mileage>
+        <Condition>Refurbished</Condition>
+
+    </Used-Car>
+
+    <Used-Car>
+
+        <Model>Renault Clio</Model>
+        <Price>11.950€</Price>
+        <Mileage>135.432 Km</Mileage>
+
+    </Used-Car>
+
+    <Used-Car>
+
+        <Model>Ford C-Max</Model>
+        <Price>9.500 €</Price>
+        <Mileage>227.886 Km</Mileage>
+        <Condition>Used</Condition>
+
+    </Used-Car>
+
+</Stock>

@@ -1,0 +1,28 @@
+<!ELEMENT Solicitud-de-Acceso (Datos-Solicitante, Tipo-Acceso-Solicitante, Solicitud-Alumno+, Fecha)>
+
+<!ELEMENT Datos-Solicitante (Documento-Nacional-Identidad, Nombre, Apellidos)>
+    <!ELEMENT Documento-Nacional-Identidad (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Apellidos (#PCDATA)>
+
+<!ATTLIST Documento-Nacional-Identidad Identificador ID #REQUIRED>
+
+<!ELEMENT Tipo-Acceso-Solicitante (Correo-Electronico)>
+    <!ELEMENT Correo-Electronico (#PCDATA)>
+
+<!ELEMENT Solicitud-Alumno (Alumno, Curso)>
+    <!ELEMENT Alumno (#PCDATA)>
+    <!ELEMENT Curso (#PCDATA)>
+
+
+<!ELEMENT Fecha (Fecha-Completa, Dia-Nominal, Dia-Numerico, Mes, Año, Localidad)>
+    <!ELEMENT Fecha-Completa (#PCDATA)>
+    <!ELEMENT Dia-Nominal (#PCDATA)>
+    <!ELEMENT Dia-Numerico (#PCDATA)>
+    <!ELEMENT Mes (#PCDATA)>
+    <!ELEMENT Año (#PCDATA)>
+    <!ELEMENT Localidad (#PCDATA)>
+
+    <!ATTLIST Fecha-Completa dia CDATA #IMPLIED>
+    <!ATTLIST Fecha-Completa mes (OCTUBRE|NOVIEMBRE) #IMPLIED>
+    <!ATTLIST Fecha-Completa año CDATA #IMPLIED>

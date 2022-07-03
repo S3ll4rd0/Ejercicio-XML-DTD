@@ -1,0 +1,20 @@
+<!-- Me he permitido pasar todas las etiquetas a mayúscula la 1a letra, 
+    por lo demás lo he mantenido como estaban -->
+
+<!ELEMENT ShipOrder (OrderPerson, ShipTo, Item*)>
+<!ATTLIST ShipOrder OrderID CDATA #REQUIRED>
+
+    <!ELEMENT OrderPerson (#PCDATA)>
+
+    <!ELEMENT ShipTo (Name, Address, City, Country)>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT Address (#PCDATA)>
+        <!ELEMENT City (#PCDATA)>
+        <!ELEMENT Country (#PCDATA)>
+
+
+    <!ELEMENT Item (Title, Note?, Quantity, Price)>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Note (#PCDATA)>
+        <!ELEMENT Quantity (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>

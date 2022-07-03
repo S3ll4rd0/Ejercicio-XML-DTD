@@ -1,0 +1,34 @@
+<!ELEMENT Sign-In-Hottie-Kitties (User, E-Mail, Human-Data, Kitties) >
+<!ELEMENT User (Nickname, Password, Repeat-Password) >
+    <!ELEMENT Nickname (#PCDATA) >
+    <!ELEMENT Password (#PCDATA) >
+    <!ELEMENT Repeat-Password (#PCDATA) >
+
+    <!ATTLIST Nickname Nick NMTOKEN #REQUIRED >
+    <!ATTLIST Password Pass NMTOKEN #REQUIRED >
+    <!ATTLIST Repeat-Password Pass NMTOKEN #REQUIRED >
+
+<!ELEMENT E-Mail (Email, Repeat-Email) >
+    <!ELEMENT Email (#PCDATA) >
+    <!ELEMENT Repeat-Email (#PCDATA) >
+
+    <!-- Quería poner esto con NMTOKEN para que no deje espacios -->
+    <!-- en blanco en el e-mail, pero me da error, no se porque motivo -->
+    <!ATTLIST Email Mail CDATA #REQUIRED >
+    <!ATTLIST Repeat-Email Mail CDATA #REQUIRED >
+
+<!ELEMENT Human-Data (Full-Name, Birth-Date, Gender) >
+    <!ELEMENT Full-Name (#PCDATA) >
+    <!ELEMENT Birth-Date (#PCDATA) >
+    <!ELEMENT Gender (#PCDATA) >
+
+    <!ATTLIST Full-Name Name CDATA #REQUIRED >
+    <!ATTLIST Birth-Date Day CDATA #REQUIRED >
+    <!ATTLIST Birth-Date Month CDATA #REQUIRED >
+    <!ATTLIST Birth-Date Year CDATA #REQUIRED >
+    <!ATTLIST Gender Type (Male|Female|Undeterminated|Non-binary|Kitty) #REQUIRED >
+
+<!ELEMENT Kitties (How-Many-Kitties) >
+    <!ELEMENT How-Many-Kitties (#PCDATA) >
+
+    <!ATTLIST How-Many-Kitties Cats (One|Two|More-Than|I-Want-One|Unanswered) #REQUIRED >

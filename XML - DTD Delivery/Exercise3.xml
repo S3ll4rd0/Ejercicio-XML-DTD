@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ShipOrder SYSTEM "Exercise3.dtd">
+
+<!-- Me he permitido pasar todas las etiquetas a mayúscula la 1a letra, 
+    por lo demás lo he mantenido como estaban -->
+<ShipOrder OrderID="889923">
+
+    <OrderPerson>John Smith</OrderPerson>	
+
+    <ShipTo>	
+        <Name>Ola Nordmann</Name>	
+        <Address>Langgt 23</Address>	
+        <City>4000 Stavanger</City>	
+        <Country>Norway</Country>	
+    </ShipTo>
+
+    <Item>	
+        <Title>Empire Burlesque</Title>	
+        <Note>Special Edition</Note>	
+        <Quantity>1</Quantity>		
+        <Price>10.90</Price>	
+    </Item>
+
+    <Item>		
+        <Title>Hide your heart</Title>		
+        <Quantity>1</Quantity>	
+        <Price>9.90</Price>	
+    </Item>	
+
+</ShipOrder>

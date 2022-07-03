@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Soccer-Match SYSTEM "Exercise4.dtd">
+<Soccer-Match>
+
+    <Team>
+        <Team-Name Turn="Local">Selección Española de Futbol</Team-Name>
+        <Country>Spain</Country>
+        <Players>
+            <Player Place="Goalkeeper" Dorsal="23" Age="24">Unai Simón</Player>
+            <Player Place="Defense" Dorsal="4" Age="25">Pau Torres</Player>
+            <Player Place="Defense" Dorsal="14" Age="27">Aymeric Laporte</Player>
+            <Player Place="Defense" Dorsal="3" Age="21">Eric García</Player>
+            <Player Place="Defense" Dorsal="12" Age="22">Hugo Guillamón</Player>
+            <Player Place="Left side" Dorsal="18" Age="33">Jordi Alba</Player>
+            <Player Place="Right side" Dorsal="20" Age="30">Daniel Carvajal</Player>
+            <Player Place="Midfield player" Dorsal="16" Age="25">Rodri</Player>
+            <Player Place="Midfield player" Dorsal="10" Age="19">Pedri</Player>
+            <Player Place="Forward" Dorsal="7" Age="29">Alvaro Morata</Player>
+            <Player Place="Forward" Dorsal="15" Age="27">Raul de Tomás</Player>
+        </Players>
+    </Team>
+
+    <Team>
+        <Team-Name Turn="Visitor">Confederación Brasileña de Fútbol</Team-Name>
+        <Country>Brazil</Country>
+        <Players>
+            <Player Place="Goalkeeper" Dorsal="1" Age="26">Alisson</Player>
+            <Player Place="Defense" Dorsal="4" Age="19">Marquinhos</Player>
+            <Player Place="Defense" Dorsal="14" Age="27">Éder Militao</Player>
+            <Player Place="Defense" Dorsal="22" Age="20">Felipe</Player>
+            <Player Place="Defense" Dorsal="3" Age="31">Thiago Silva</Player>
+            <Player Place="Left side" Dorsal="16" Age="28">Guilherme Arana</Player>
+            <Player Place="Right side" Dorsal="2" Age="21">Danilo</Player>
+            <Player Place="Midfield player" Dorsal="20" Age="25">Fred</Player>
+            <Player Place="Midfield player" Dorsal="8" Age="30">Neymar</Player>
+            <Player Place="Forward" Dorsal="18" Age="22">Antony</Player>
+            <Player Place="Forward" Dorsal="9" Age="25">Richarlison</Player>
+        </Players>
+    </Team>
+
+    <Relays>
+        <Player Player-Out="14">Aymeric Laporte</Player>
+        <Player Player-In="17">Marcos Alonso</Player>
+        <Minute>59</Minute>
+        <Team-Name>Selección Española de Futbol</Team-Name>
+    </Relays>
+
+    <Goals>
+
+        <Goal>
+            <Minute>34</Minute>
+            <Player>Alvaro Morata</Player>
+            <Asistence>Daniel Carvajal</Asistence>
+        </Goal>
+
+        <Goal>
+            <Minute>78</Minute>
+            <Player>Neymar</Player>
+            <Penalty>Yes</Penalty>
+        </Goal>
+
+    </Goals>
+
+    <Penalties Card="Yellow">
+        <Minute>64</Minute>
+        <Player>Thiago Silva</Player>
+    </Penalties>
+
+    <Penalties Card="Yellow">
+        <Minute>87</Minute>
+        <Player>Pau Torres</Player>
+    </Penalties>
+
+    <Score>1-1</Score>
+
+    <Date>
+        <Match-Date Day="14" Month="April" Year="2022" Hour="20:00">14/April/2022 20:00</Match-Date>
+        <Played-Time>93</Played-Time>
+    </Date>
+
+    <Stadium>
+        <Stadium-Name Stadium-Team="Valencia C.F.">Estadio de Mestalla</Stadium-Name>
+        <City>Valencia</City>
+        <Country>Spain</Country>
+    </Stadium>
+
+    <League>FIFA World Cup Qatar 2022</League>
+
+</Soccer-Match>

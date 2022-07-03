@@ -1,0 +1,48 @@
+<!ELEMENT Soccer-Match (Team+, Relays*, Goals?, Penalties*, Score, Date, Stadium, League)>
+
+<!ELEMENT Team (Team-Name, Country, Players)>
+    <!ELEMENT Team-Name (#PCDATA)>
+    <!ELEMENT Country (#PCDATA)>
+
+    <!ATTLIST Team-Name Turn (Local|Visitor) #IMPLIED>
+
+    <!ELEMENT Players (Player+)>
+        <!ELEMENT Player (#PCDATA)>
+
+        <!ATTLIST Player Place CDATA #IMPLIED>
+        <!ATTLIST Player Dorsal NMTOKEN #IMPLIED>
+        <!ATTLIST Player Age NMTOKEN #IMPLIED>
+        <!ATTLIST Player Player-Out CDATA #IMPLIED>
+        <!ATTLIST Player Player-In CDATA #IMPLIED>
+
+<!ELEMENT Relays (Player, Player, Minute, Team-Name)>
+
+<!ELEMENT Goals (Goal*)>
+    <!ELEMENT Goal (Minute, Player, Asistence?, Penalty?)>
+        <!ELEMENT Minute (#PCDATA)>
+        <!ELEMENT Asistence (#PCDATA)>
+        <!ELEMENT Penalty (#PCDATA)>
+
+<!ELEMENT Penalties (Minute, Player, Expulsion?)>
+    <!ELEMENT Expulsion (#PCDATA)>
+
+    <!ATTLIST Penalties Card (Yellow|Red) #REQUIRED>
+
+<!ELEMENT Score (#PCDATA)>
+
+<!ELEMENT Date (Match-Date, Played-Time)>
+    <!ELEMENT Match-Date (#PCDATA)>
+    <!ELEMENT Played-Time (#PCDATA)>
+
+    <!ATTLIST Match-Date Day CDATA #REQUIRED>
+    <!ATTLIST Match-Date Month CDATA #REQUIRED>
+    <!ATTLIST Match-Date Year CDATA #REQUIRED>
+    <!ATTLIST Match-Date Hour CDATA #REQUIRED>
+
+<!ELEMENT Stadium (Stadium-Name, City, Country)>
+    <!ELEMENT Stadium-Name (#PCDATA)>
+    <!ELEMENT City (#PCDATA)>
+
+    <!ATTLIST Stadium-Name Stadium-Team CDATA #REQUIRED>
+
+<!ELEMENT League (#PCDATA)>

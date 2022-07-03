@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Sign-In-Hottie-Kitties SYSTEM "practice1.dtd">
+
+<!-- Root: Sign-In-Hottie-Kitties -->
+<Sign-In-Hottie-Kitties>
+
+    <!-- The user data to login -->
+    <User>
+        <Nickname Nick="OnlyOneWord">S3ll4rd0</Nickname>
+        <Password Pass="P4s2W0rD">iAmTheStrongestPasswordEver</Password>
+        <Repeat-Password Pass="P4s2W0rD">Claim1234AsAStrongAndSecurePassword</Repeat-Password>
+    </User>
+
+    <!-- Email from the user -->
+    <E-Mail>
+        <Email Mail="e.mail@service.com">tonet.sellardo@gmail.com</Email>
+        <Repeat-Email Mail="e.mail@service.com">tonet.sellardo@gmail.com</Repeat-Email>
+    </E-Mail>
+
+    <!-- Complete data from the user -->
+    <Human-Data>
+        <Full-Name Name="Antonio Salmerón">Antonio Nicolás Salmerón Rubio</Full-Name>
+        <Birth-Date Day="30" Month="10" Year="1991">30/10/1991</Birth-Date>
+        <Gender Type="Male">Male</Gender>
+    </Human-Data>
+
+    <!-- How many cats the user has -->
+    <Kitties>
+        <How-Many-Kitties Cats="One">Two</How-Many-Kitties>
+    </Kitties>
+
+</Sign-In-Hottie-Kitties>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Solicitud-de-Acceso SYSTEM "Exercise1.dtd">
+
+<Solicitud-de-Acceso>
+
+    <Datos-Solicitante>
+        <Documento-Nacional-Identidad Identificador="W48679042">
+            48679042W</Documento-Nacional-Identidad>
+        <Nombre>Antonio Nicolás</Nombre>
+        <Apellidos>Salmerón Rubio</Apellidos>
+    </Datos-Solicitante>
+
+    <Tipo-Acceso-Solicitante>
+       <Correo-Electronico>tonet.sellardo@gmail.com</Correo-Electronico> 
+    </Tipo-Acceso-Solicitante>
+
+    <Solicitud-Alumno>
+        <Alumno>Antonio Nicolás Salmerón Rubio</Alumno>
+        <Curso>1º DAW Semi</Curso>
+    </Solicitud-Alumno>
+
+    <Solicitud-Alumno>
+        <Alumno>Antonio Nicolás Salmerón Rubio</Alumno>
+        <Curso>1º DAW Semi</Curso>
+    </Solicitud-Alumno>
+
+    <Solicitud-Alumno>
+        <Alumno>Antonio Nicolás Salmerón Rubio</Alumno>
+        <Curso>1º DAW Semi</Curso>
+    </Solicitud-Alumno>
+
+    <Solicitud-Alumno>
+        <Alumno>Antonio Nicolás Salmerón Rubio</Alumno>
+        <Curso>1º DAW Semi</Curso>
+    </Solicitud-Alumno>
+
+    <Fecha>
+        <Fecha-Completa dia="09" mes="OCTUBRE" año="2022">
+            </Fecha-Completa>
+        <Dia-Nominal>Lunes</Dia-Nominal>
+        <Dia-Numerico>09</Dia-Numerico>
+        <Mes>05</Mes>
+        <Año>2022</Año>
+        <Localidad>Benidorm</Localidad>
+    </Fecha>
+
+</Solicitud-de-Acceso>
